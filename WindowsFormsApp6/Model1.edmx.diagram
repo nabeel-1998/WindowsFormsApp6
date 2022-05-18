@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b7a8c675e0a48a0a7d0af1b0b018bc5" Name="Diagram1">
+        <EntityTypeShape EntityType="AMSModel.ADMIN_TABLE" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMSModel.ATTENDANCE_TABLE" Width="1.5" PointX="4.25" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMSModel.EMP_AMS" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="AMSModel.FK_EMP_AMS_EMP_AMS1" ManuallyRouted="true" >
+          <ConnectorPoint PointX="1.2819230769230767" PointY="3.3071907552083335" />
+          <ConnectorPoint PointX="1.2819230769230767" PointY="4.3905240885416674" />
+          <ConnectorPoint PointX="2.2284615384615383" PointY="4.3905240885416674" />
+          <ConnectorPoint PointX="2.2284615384615383" PointY="3.6646907552083339" />
+          <ConnectorPoint PointX="1.7284615384615383" PointY="3.6646907552083339" />
+          <ConnectorPoint PointX="1.7284615384615383" PointY="3.3071907552083335" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
