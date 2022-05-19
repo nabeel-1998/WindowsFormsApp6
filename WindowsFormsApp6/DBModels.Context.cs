@@ -13,10 +13,10 @@ namespace WindowsFormsApp6
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AMSEntities : DbContext
+    public partial class DBEntities : DbContext
     {
-        public AMSEntities()
-            : base("name=AMSEntities")
+        public DBEntities()
+            : base("name=DBEntities")
         {
         }
     
@@ -25,8 +25,6 @@ namespace WindowsFormsApp6
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<ADMIN_TABLE> ADMIN_TABLE { get; set; }
-        public virtual DbSet<ATTENDANCE_TABLE> ATTENDANCE_TABLE { get; set; }
-        public virtual DbSet<EMP_AMS> EMP_AMS { get; set; }
+        public virtual DbSet<SC1> SC1 { get; set; }
     }
 }

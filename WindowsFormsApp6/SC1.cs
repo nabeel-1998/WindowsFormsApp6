@@ -12,16 +12,14 @@ namespace WindowsFormsApp6
     using System;
     using System.Collections.Generic;
     
-    public partial class EMP_AMS
+    public partial class SC1
     {
-        public int ID_EMP { get; set; }
+        public int ID { get; set; }
         public string NAME { get; set; }
-        public string EMAIL { get; set; }
-        public string CONTACT { get; set; }
-        public string BIKE { get; set; }
-        public string PASSWORK { get; set; }
-    
-        public virtual EMP_AMS EMP_AMS1 { get; set; }
-        public virtual EMP_AMS EMP_AMS2 { get; set; }
+        public string STATUS { get; set; }
+        public string TIME_IN { get; set; }
+        public string TIME_OUT { get; set; }
+        public string DATE { get; set; }
+        public string DAY { get; set; }
     }
 }
